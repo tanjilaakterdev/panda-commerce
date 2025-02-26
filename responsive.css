@@ -1,11 +1,11 @@
 @media (max-width:480px) {
     .container{
-        width: 100%;
+        width: 95%;
         display: flex;
         flex-direction: column;
-        
         gap: 20px;
     }
+
     .categories{
         padding:13%;
     }
@@ -47,63 +47,29 @@
     .shoes-card img {
         width: 100%;
     }
+    .shoes-card {
+        padding: 0 20px;
+    }
     .shoes-title{
         gap: 2%;
     }
     .shoes {
         padding-bottom: 70px;
+        
     }
     .bag-cards {
         display: grid;
         grid-template-columns: repeat(1,auto);
         gap: 1%;
     }
-box
-
-
-    .box{
-        padding-top: 20px;
-    }
     .touch-container{
-        width: 1080px;
+        width: 400px;
         margin: 0 auto;
-        background-color:#F1F1F1;
+        background-color:#FFF2F1;
         padding: 30px;
-        border-radius: 15px;
+        border-radius: 20px;
         align-items: center;
     }
-    .big h4 {
-        font-size: 30px;
-        margin: 0;
-        text-align: center;
-        padding-top: 30px;
-    }
-    .big h5 {
-        font-size: 16px;
-        text-align: center;
-        margin: 0;
-
-
-
-
-
-
-    .sub-btn{
-        width: 80px;
-        text-align: center;
-        border-radius: 10px;
-        background-image: linear-gradient(#FF589B,#FF136F);
-        display: flex;
-        color: white;
-        text-decoration: none;
-        padding: 14px 20px ;
-        display: inline-block;
-        Transition:1s;
-        transition-duration:1s;
-    }
-    .sub-btn:hover{
-        transform:scale(1.1); 
-        transition-timing-function:ease-in-out;
-        transition-duration:1s;
-    }
+    
+    
 }
