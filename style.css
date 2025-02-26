@@ -100,7 +100,9 @@ padding: 10px;
     transition-duration:1s;
 }
 .slider-content .btn:hover{
-    transform:scale(1.2); 
+    background-image: linear-gradient(#af0348,#ac3e68);
+    color: #000000;
+    transform:scale(1.1); 
     transition-timing-function:ease-in-out;
     transition-duration:1s;
 }
@@ -306,7 +308,9 @@ padding: 10px;
     transition-duration:1s;
 }
 .card-btn:hover{
-    background-color: #1F1F1F;
+    background-color: #ad6a6a38;
+    color: #000000;
+    border:  black;
     transform:scale(1.2); 
     transition-timing-function:ease-in-out;
     transition-duration:1s;
@@ -326,6 +330,34 @@ padding: 10px;
     border-radius: 15px;
     align-items: center;
 }
+input[type="email"] {
+    padding: 20px 100px;
+    border-radius: 5px;
+    border: 0;
+    text-align: center;
+}
+.sub-btn {
+    width: 150px;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding: 16px 22px;
+    cursor: pointer;
+    background-image:  linear-gradient(#FF589B,#FF136F);
+    Transition:1s;
+    transition-duration:1s;  
+}
+.sub-btn:hover{
+    background-image:  linear-gradient(#e90460,#e89cb9);
+    color: #000000;
+}
+.touch-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
 .big h4 {
     font-size: 30px;
     margin: 0;
@@ -336,4 +368,5 @@ padding: 10px;
     font-size: 16px;
     text-align: center;
     margin: 0;
+    padding-bottom: 30px;
 }
