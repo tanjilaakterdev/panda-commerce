@@ -28,8 +28,6 @@
     .slider-img img {
         width: 100%;
         display: flex;
-        flex-direction: column;
-        flex-direction: column-reverse;
     }
     .slider-content h1 {
         color: #1F1F1F;
@@ -59,5 +57,53 @@
         display: grid;
         grid-template-columns: repeat(1,auto);
         gap: 1%;
+    }
+box
+
+
+    .box{
+        padding-top: 20px;
+    }
+    .touch-container{
+        width: 1080px;
+        margin: 0 auto;
+        background-color:#F1F1F1;
+        padding: 30px;
+        border-radius: 15px;
+        align-items: center;
+    }
+    .big h4 {
+        font-size: 30px;
+        margin: 0;
+        text-align: center;
+        padding-top: 30px;
+    }
+    .big h5 {
+        font-size: 16px;
+        text-align: center;
+        margin: 0;
+
+
+
+
+
+
+    .sub-btn{
+        width: 80px;
+        text-align: center;
+        border-radius: 10px;
+        background-image: linear-gradient(#FF589B,#FF136F);
+        display: flex;
+        color: white;
+        text-decoration: none;
+        padding: 14px 20px ;
+        display: inline-block;
+        Transition:1s;
+        transition-duration:1s;
+    }
+    .sub-btn:hover{
+        transform:scale(1.1); 
+        transition-timing-function:ease-in-out;
+        transition-duration:1s;
     }
 }

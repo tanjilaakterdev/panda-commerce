@@ -87,10 +87,14 @@ padding: 10px;
     color: #FF136F;
 }
 .slider-content .btn {
+    width: 120px;
+    text-align: center;
+    border-radius: 10px;
     background-image: linear-gradient(#FF589B,#FF136F);
+    display: flex;
     color: white;
     text-decoration: none;
-    padding: 14px 20px 14px 20px;
+    padding: 14px 20px ;
     display: inline-block;
     Transition:1s;
     transition-duration:1s;
@@ -211,6 +215,9 @@ padding: 10px;
     padding-bottom: 22PX;
 }
 .card-btn {
+    width: 150px;
+    text-align: center;
+    border-radius: 10px;
     text-decoration: none;
     font-size: 16px;
     color: #FFFFFF;
@@ -308,8 +315,29 @@ padding: 10px;
     margin: 0;
 }
 /*Footer-Section */
-.box {
-    background-color: #4E4E4E;
-    width: 1080;
-    margin: 0 auto;
+.box{
+    padding-top: 20px;
 }
+.touch-container{
+    width: 1080px;
+    margin: 0 auto;
+    background-color:#FFF2F1;
+    padding: 30px;
+    border-radius: 20px;
+    align-items: center;
+}
+.big h4 {
+    font-size: 30px;
+    margin: 0;
+    text-align: center;
+    padding-top: 30px;
+}
+.big h5 {
+    font-size: 16px;
+    text-align: center;
+    margin: 0;
+}
+
+
+
+
