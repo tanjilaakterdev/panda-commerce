@@ -222,6 +222,7 @@ padding: 10px;
     font-size: 16px;
     color: #FFFFFF;
     padding: 14px 20px;
+    cursor: pointer;
     background-color: #000000;
     Transition:1s;
     transition-duration:1s;
@@ -289,7 +290,7 @@ padding: 10px;
     padding: 20px 20px;
     margin: 0;
     justify-content: center;
-    box-shadow: 5px 5px 10px lightgray;
+    box-shadow: 5px 5px 10px rgb(211, 201, 201);
 }
 .price {
     font-size: 24px;
@@ -322,7 +323,7 @@ padding: 10px;
     width: 1080px;
     margin: 0 auto;
     background-color:#FFF2F1;
-    border-radius: 20px;
+    border-radius: 15px;
     align-items: center;
 }
 .big h4 {
